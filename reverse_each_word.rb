@@ -1,7 +1,7 @@
 require 'pry'
 
 
-str = "Hello there, and how are you?"
+#str = "Hello there, and how are you?"
 
 def reverse_each_word(str)
   reversed_array =[]
@@ -15,4 +15,4 @@ def reverse_each_word(str)
 
 end
 
-reverse_each_word(str)
+#reverse_each_word(str)
