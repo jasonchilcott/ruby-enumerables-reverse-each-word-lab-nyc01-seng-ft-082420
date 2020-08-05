@@ -4,12 +4,13 @@ require 'pry'
 str = "Hello there, and how are you?"
 
 def reverse_each_word(str)
+  reversed_array =[]
   string_array = str.split(/ /)
   string_array.each do |word|
     word = word.reverse
+    reversed_array << word
   end
-  binding.pry
-  reversed_string = string_array.join(" ")
+  reversed_string = reversed_array.join(" ")
   reversed_string
 
 end
